@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* Devices */
+/* Colors */
+/* Из приложения на Vue */
+.b2input {
+  width: 445px;
+  height: 42px;
+  border: 2px solid #D7E6DD;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9A9A9A;
+  padding: 12px 20px;
+}
+/*# sourceMappingURL=B2Input.css.map */

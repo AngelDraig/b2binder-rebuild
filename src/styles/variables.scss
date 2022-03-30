@@ -6,9 +6,17 @@ $breakpoint-xs: 320px;
 
 /* Colors */
 $color-white: #ffffff;
+$color-black: #393534;
+$color-grey: #9A9A9A;
 $color-green: #27ae60;
 $color-green-gradient: linear-gradient(180deg, #50bd7e 0%, #1cab58 100%);
+$color-blue-gradient: linear-gradient(180deg, #55AFE2 0%, #309EDC 100%);
 $color-green-light: #b0d3bf;
+$color-green-background: #D7E6DD;
+
+
+
+
 
 /* Из приложения на Vue */
 $defaulborderradius: 30px;

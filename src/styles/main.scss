@@ -3,13 +3,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: $ff;
+/*     font-family: $ff; */
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;700&display=swap');
 
 html {
-    font-size: 16px;
+    height: 100%;
+    width: $breakpoint-lg;
+    font-family: 'Montserrat', 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: $color-black;
 }
 
 body {

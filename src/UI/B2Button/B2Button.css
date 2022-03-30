@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* Devices */
+/* Colors */
+/* Из приложения на Vue */
+.button {
+  width: 170px;
+  height: 42px;
+  border: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#50bd7e), to(#1cab58));
+  background: linear-gradient(180deg, #50bd7e 0%, #1cab58 100%);
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button_blue {
+  background: -webkit-gradient(linear, left top, left bottom, from(#55AFE2), to(#309EDC));
+  background: linear-gradient(180deg, #55AFE2 0%, #309EDC 100%);
+}
+
+.button_transparent {
+  width: 116px;
+  height: 30px;
+  background: transparent;
+  color: #393534;
+  border: 2px solid #B0D3BF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: none;
+}
+/*# sourceMappingURL=B2Button.css.map */

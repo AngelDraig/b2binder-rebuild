@@ -1,19 +1,34 @@
 @import '../../styles/variables.scss';
+
 .button {
-    //width: 170px;
-    width: $breakpoint-xs;
-    height: 42px;
-    border: none;
-    background: $input-color;
-    border-radius: 15px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    color: $color-white;
-    text-transform: uppercase;
-    cursor: pointer;
+  width: 170px;
+  height: 42px;
+  border: none;
+  background: $color-green-gradient;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
 
-    &_blue {
+  &_blue {
+    background: $color-blue-gradient;
+  }
 
-    }
+  &_transparent {
+    width: 116px;
+    height: 30px;
+    background: transparent;
+    color: $color-black;
+    border: 2px solid #B0D3BF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: none;
+  }
 }
