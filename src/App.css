@@ -1,1 +1,10 @@
-@import './pages/Main/Main.scss'
+@import '~normalize.css';
+@import './styles/_page.scss';
+@import './styles/main.scss';
+@import './styles/variables.scss';
+
+@import './pages/Main/Main.scss';
+@import './pages/Error/Error.scss';
+
+@import './components/TopNavbar/TopNavbar.scss';
+@import './UI/B2Button/B2Button.scss';

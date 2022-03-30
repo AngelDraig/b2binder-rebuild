@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+.button {
+    //width: 170px;
+    width: $breakpoint-xs;
+    height: 42px;
+    border: none;
+    background: $input-color;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: $color-white;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &_blue {
+
+    }
+}

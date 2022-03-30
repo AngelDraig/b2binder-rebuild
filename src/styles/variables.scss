@@ -1,0 +1,66 @@
+
+/* Devices */
+$breakpoint-lg: 1920px;
+$breakpoint-md: 1366px;
+$breakpoint-xs: 320px;
+
+/* Colors */
+$color-white: #ffffff;
+$color-green: #27ae60;
+$color-green-gradient: linear-gradient(180deg, #50bd7e 0%, #1cab58 100%);
+$color-green-light: #b0d3bf;
+
+/* Из приложения на Vue */
+$defaulborderradius: 30px;
+$toolbarHeight: 40px;
+$messageformheight: 40px;
+$toast-colors: () !default;
+$dark: #738a79;
+$greenbg: #133f04;
+$litegreen: #b0d3bf;
+$tglite: #c7d6c7;
+$tgdark: #7d837d;
+$tggreenbright: #6fd94a;
+$tgmiddle: #abb6aa;
+$tgblack: #232d23;
+$tgblue: #1d9dd2;
+$maxWidth: 960px;
+$ff: 'Montserrat', sans-serif;
+$toast-colors: map-merge(
+  (
+    'success': #28a745,
+    'info': #17a2b8,
+    'warning': #ffc107,
+    'error': #dc3545,
+    'default': #343a40,
+  ),
+  $toast-colors
+);
+
+$small: 320px;
+$large: 900px;
+$wide: 1400px;
+
+@mixin respond-to($media) {
+  @if $media == handhelds {
+    @media only screen and (max-width: $large) {
+      @content;
+    }
+  } @else if $media == small-screens {
+    @media only screen and (min-width: $small + 1) and (max-width: $large - 1) {
+      @content;
+    }
+  } @else if $media == medium-screens {
+    @media only screen and (min-width: $small + 1) and (max-width: $wide - 1) {
+      @content;
+    }
+  } @else if $media == mid {
+    @media only screen and (min-width: $large + 1) and (max-width: $wide - 1) {
+      @content;
+    }
+  } @else if $media == wide-screens {
+    @media only screen and (min-width: $wide) {
+      @content;
+    }
+  }
+}
