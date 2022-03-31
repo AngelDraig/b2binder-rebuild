@@ -1,0 +1,31 @@
+@import '../../styles/variables.scss';
+
+.b2checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 33px;
+    
+
+    &__input {
+        width: 25px;
+        height: 25px;
+        background-color: $color-green-light;
+        border-radius: 50%;
+        cursor: pointer;
+        appearance: none;
+
+        &:checked {
+            background-color: $color-green;
+        }
+
+    }
+
+    &__label {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+}

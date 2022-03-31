@@ -1,13 +1,16 @@
 @import '../../styles/variables.scss';
 
 .b2input {
-    width: 445px;
-    height: 42px;
-    border: 2px solid $color-green-background;
-    border-radius: 5px;
-    font-size: 14px;
-    line-height: 17px;
+  width: 445px;
+  height: 42px;
+  border: 2px solid $color-green-background;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 17px;
+  color: $color-black;
+  padding: 12px 20px;
+
+  &::placeholder {
     color: $color-grey;
-    padding: 12px 20px;
-    
+  }
 }

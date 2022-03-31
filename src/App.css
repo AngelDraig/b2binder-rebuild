@@ -9,3 +9,7 @@
 @import './components/TopNavbar/TopNavbar.scss';
 @import './UI/B2Button/B2Button.css';
 @import './UI/B2Input/B2Input.css';
+@import './UI/B2InputRub/B2InputRub.css';
+@import './UI/B2Tag/B2Tag.css';
+@import './UI/B2Checkbox/B2Checkbox.css';
+@import './UI/B2Select/B2Select.css';

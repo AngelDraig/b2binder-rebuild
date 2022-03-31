@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* Devices */
+/* Colors */
+/* Из приложения на Vue */
+.b2input-rub {
+  width: 313px;
+  height: 42px;
+  border: 2px solid #D7E6DD;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #393534;
+  padding: 12px 57px 12px 20px;
+  background-image: url("../../assets/icons/₽.svg");
+  background-repeat: no-repeat;
+  background-position: right 37px top 50%, 0 0;
+  background-size: 14px, 18px;
+  -moz-appearance: textfield;
+}
+
+.b2input-rub::-webkit-input-placeholder {
+  color: #9A9A9A;
+}
+
+.b2input-rub:-ms-input-placeholder {
+  color: #9A9A9A;
+}
+
+.b2input-rub::-ms-input-placeholder {
+  color: #9A9A9A;
+}
+
+.b2input-rub::placeholder {
+  color: #9A9A9A;
+}
+
+.b2input-rub::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.b2input-rub::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+/*# sourceMappingURL=B2InputRub.css.map */

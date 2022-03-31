@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* Devices */
+/* Colors */
+/* Из приложения на Vue */
+.b2tag {
+  height: 25px;
+  padding: 5px 12px;
+  border: none;
+  background-color: #27ae60;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.b2tag_disabled {
+  background-color: #9A9A9A;
+}
+/*# sourceMappingURL=B2Tag.css.map */

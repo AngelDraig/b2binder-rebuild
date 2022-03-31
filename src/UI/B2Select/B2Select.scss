@@ -1,0 +1,51 @@
+@import '../../styles/variables.scss';
+
+.b2select {
+  width: 445px;
+  height: 42px;
+  border: 2px solid $color-green-background;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 17px;
+  color: $color-black;
+  cursor: pointer;
+
+  &__header {
+    color: $color-grey;
+    padding: 12px 20px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: right 16px top 50%, 0 0;
+    background-size: 10px, 6px;
+    background-image: url('../../assets/icons/down.svg');
+
+    &_close {
+        background-image: url('../../assets/icons/up.svg');
+    }
+  }
+
+  &__list {
+    width: 442px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 0px 0px 5px 5px;
+    background-color: $color-white;
+  }
+
+  &__item {
+    height: 40px;
+    font-size: 14px;
+    line-height: 17px;
+    border-bottom: 1px solid $color-green-border;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13px;
+    margin-right: 13px;
+  }
+
+  &__item:last-child {
+    border-bottom: none;
+  }
+}

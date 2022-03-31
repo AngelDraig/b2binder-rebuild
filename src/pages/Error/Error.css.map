@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,MAAM;EACb,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM;CACrB",
+    "mappings": ";ACCA,aAAa;AAKb,YAAY;AAeZ,0BAA0B;ADnB1B,AAAA,MAAM,CAAC;EACH,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,KAAK;CAEhB",
     "sources": [
-        "Error.scss"
+        "Error.scss",
+        "../../styles/variables.scss"
     ],
     "names": [],
     "file": "Error.css"

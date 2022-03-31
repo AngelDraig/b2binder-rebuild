@@ -9,7 +9,23 @@
   border-radius: 5px;
   font-size: 14px;
   line-height: 17px;
-  color: #9A9A9A;
+  color: #393534;
   padding: 12px 20px;
+}
+
+.b2input::-webkit-input-placeholder {
+  color: #9A9A9A;
+}
+
+.b2input:-ms-input-placeholder {
+  color: #9A9A9A;
+}
+
+.b2input::-ms-input-placeholder {
+  color: #9A9A9A;
+}
+
+.b2input::placeholder {
+  color: #9A9A9A;
 }
 /*# sourceMappingURL=B2Input.css.map */
