@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { B2Button } from '../../UI/B2Button';
 import { B2Input } from '../../UI/B2Input';
 import { B2InputRub } from '../../UI/B2InputRub';
@@ -23,7 +23,7 @@ export const Error = () => {
       <B2InputRub placeholder="Сумма"/>
       <hr style={{marginBottom: '20px', marginTop: '20px', color: 'lightblue'}} />
       <B2Tag text="Технологии" active={true} />
-      <B2Tag text="Спорт" active={false} onClick={()=>{console.log('press tag')}}/>
+      <B2Tag text="Спорт" active={false} />
       <hr style={{marginBottom: '20px', marginTop: '20px', color: 'lightblue'}} />
       <B2Checkbox 
           label='Компьютерные игры' 
@@ -38,7 +38,6 @@ export const Error = () => {
         value='techno'
       />
       <hr style={{marginBottom: '20px', marginTop: '20px', color: 'lightblue'}} />
-      {/* <B2Select selected={selected} setSelected={setSelected} /> */}
       <B2Select placeholder='Форма организации' options={options}/>
     </div>
 
