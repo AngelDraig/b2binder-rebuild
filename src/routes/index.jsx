@@ -15,6 +15,7 @@ export const AppRouter = () => {
       <Route path={PagesLinks.SIGN_UP_PAGE} element={<SignUp />} />
       <Route path={PagesLinks.MESSAGES} element={<Messanges />} />
       <Route path={`${PagesLinks.MESSAGES}/:id`} element={<Messanges />} />
+      <Route path='/' element={<Main />} />
       <Route path="*" element={<Error />} /> 
     </Routes>
   );

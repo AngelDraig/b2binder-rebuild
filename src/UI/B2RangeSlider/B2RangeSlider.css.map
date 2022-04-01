@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": ";ACCA,aAAa;AAKb,YAAY;AAkBZ,0BAA0B;ADtB1B,AAAA,eAAe,CAAC;EACZ,aAAa,EAAE,aAAa;CAC/B;;AACD,AAAA,gBAAgB,CAAC;EACb,OAAO,EAAE,eAAe;CAC3B;;AACD,AAAA,uBAAuB,CAAC;EACpB,KAAK,ECGK,OAAO,CDHG,UAAU;CACjC;;AAED,AAAA,2BAA2B,CAAC;EACxB,OAAO,EAAE,eAAe;EACxB,gBAAgB,ECHD,OAAO,CDGc,UAAU;CACjD",
+    "sources": [
+        "B2RangeSlider.scss",
+        "../../styles/variables.scss"
+    ],
+    "names": [],
+    "file": "B2RangeSlider.css"
+}

@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.b2info {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none; 
+    background: $color-grey-ligth;
+    background-image: url('../../assets/icons/info.svg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

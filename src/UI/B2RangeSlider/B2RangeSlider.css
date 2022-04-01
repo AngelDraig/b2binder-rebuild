@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* Devices */
+/* Colors */
+/* Из приложения на Vue */
+.MuiSlider-root {
+  border-radius: 0% !important;
+}
+
+.MuiSlider-thumb {
+  display: none !important;
+}
+
+.MuiSlider-colorPrimary {
+  color: #27AE60 !important;
+}
+
+.css-14pt78w-MuiSlider-rail {
+  opacity: 100% !important;
+  background-color: #C4C4C4 !important;
+}
+/*# sourceMappingURL=B2RangeSlider.css.map */

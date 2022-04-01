@@ -1,0 +1,16 @@
+@import '../../styles/variables.scss';
+
+.MuiSlider-root {
+    border-radius: 0% !important;
+}
+.MuiSlider-thumb {
+    display: none !important;
+}
+.MuiSlider-colorPrimary {
+    color: $color-green !important;
+}
+
+.css-14pt78w-MuiSlider-rail {
+    opacity: 100% !important;
+    background-color: $color-grey-range !important;
+}

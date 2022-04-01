@@ -21,7 +21,7 @@ export const B2Button = (props) => {
   }
 
   return (
-    <button type={type} className={btnClassName} onClick={onclick} style={{width: width} }>
+    <button type={type} className={btnClassName} onClick={onclick} style={{width: width}} {...props}>
       {text}
     </button>
   );

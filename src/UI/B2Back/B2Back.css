@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* Devices */
+/* Colors */
+/* Из приложения на Vue */
+.b2back {
+  position: relative;
+  width: 56px;
+  height: 15px;
+  border: none;
+  background: transparent;
+  font-size: 12px;
+  line-height: 15px;
+  color: #223522;
+  text-align: end;
+  cursor: pointer;
+}
+
+.b2back::before {
+  position: absolute;
+  content: '';
+  width: 9.2px;
+  height: 15px;
+  left: 0px;
+  top: 0px;
+  background-image: url("../../assets/icons/left.svg");
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=B2Back.css.map */

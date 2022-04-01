@@ -1,18 +1,23 @@
 @import '../../styles/variables.scss';
 
 .b2select {
+  position: relative;
   width: 445px;
-  height: 42px;
-  border: 2px solid $color-green-background;
-  border-radius: 5px;
   font-size: 14px;
   line-height: 17px;
   color: $color-black;
   cursor: pointer;
 
+  &__legend {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
   &__header {
+    width: 445px;
     color: $color-grey;
-    padding: 12px 20px;
+    border: 2px solid $color-green-background;
+    border-radius: 5px;
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: right 16px top 50%, 0 0;
@@ -25,6 +30,8 @@
   }
 
   &__list {
+    position: absolute;
+    z-index: 1;
     width: 442px;
     list-style: none;
     padding: 0;
