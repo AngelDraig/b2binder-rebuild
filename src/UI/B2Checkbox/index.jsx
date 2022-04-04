@@ -11,7 +11,6 @@ export const B2Checkbox = (props) => {
                 id={id} 
                 name={name} 
                 value={value}
-                onChange={ (e)=>{console.log(e.target.value)}} 
                 {...props}>
             </input>
             <label className='b2checkbox__label' htmlFor={id}>{label}</label>

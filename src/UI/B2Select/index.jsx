@@ -15,7 +15,7 @@ export const B2Select = ({ label, placeholder, options }) => {
   }
 
   return (
-    <form className="b2select">
+    <div className="b2select">
       
       <fieldset className={headerClassName} onClick={() => setIsActive(!isActive)} style={label ? stylesForHeaderLabel : stylesForHeader }>
         {label && <legend className="b2select__legend">{label}</legend>}
@@ -39,7 +39,7 @@ export const B2Select = ({ label, placeholder, options }) => {
           </ul>
         )}
 
-    </form>
+    </div>
   );
 };
 

@@ -9,6 +9,7 @@ import { B2Back } from '../../UI/B2Back';
 import { B2Like } from '../../UI/B2Like';
 import { B2Info } from '../../UI/B2Info';
 import { B2RangeSlider } from '../../UI/B2RangeSlider';
+import { Logo } from '../../components/Logo'
 
 export const Error = () => {
   const options=[

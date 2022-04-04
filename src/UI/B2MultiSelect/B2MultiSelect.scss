@@ -1,7 +1,6 @@
 @import '../../styles/variables.scss';
 
-.b2select {
-  position: relative;
+.b2multiselect {
   width: 445px;
   font-size: 14px;
   line-height: 17px;
@@ -32,29 +31,29 @@
   }
 
   &__list {
-    position: absolute;
-    z-index: 1;
-    width: 442px;
+    border: 2px solid $color-green-background;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 445px;
     list-style: none;
-    padding: 0;
+    padding: 30px;
     margin: 0;
-    border-radius: 0px 0px 5px 5px;
     background-color: $color-white;
   }
 
   &__item {
-    height: 40px;
+    //height: 40px;
     font-size: 14px;
     line-height: 17px;
-    border-bottom: 1px solid $color-green-border;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    margin-left: 13px;
-    margin-right: 13px;
+    margin-bottom: 25px;
+//margin: 30px;
   }
 
   &__item:last-child {
-    border-bottom: none;
+    margin-bottom: none;
   }
+
 }

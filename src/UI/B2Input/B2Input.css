@@ -11,6 +11,8 @@
   line-height: 17px;
   color: #393534;
   padding: 12px 20px;
+  display: block;
+  margin: 0 auto;
 }
 
 .b2input::-webkit-input-placeholder {

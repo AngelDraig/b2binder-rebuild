@@ -2,8 +2,7 @@
 /* Devices */
 /* Colors */
 /* Из приложения на Vue */
-.b2select {
-  position: relative;
+.b2multiselect {
   width: 445px;
   font-size: 14px;
   line-height: 17px;
@@ -13,12 +12,12 @@
   cursor: pointer;
 }
 
-.b2select__legend {
+.b2multiselect__legend {
   padding-left: 2px;
   padding-right: 2px;
 }
 
-.b2select__header {
+.b2multiselect__header {
   width: 445px;
   color: #9A9A9A;
   border: 2px solid #D7E6DD;
@@ -30,40 +29,38 @@
   background-image: url("../../assets/icons/down.svg");
 }
 
-.b2select__header_close {
+.b2multiselect__header_close {
   background-image: url("../../assets/icons/up.svg");
 }
 
-.b2select__list {
-  position: absolute;
-  z-index: 1;
-  width: 442px;
+.b2multiselect__list {
+  border: 2px solid #D7E6DD;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  width: 445px;
   list-style: none;
-  padding: 0;
+  padding: 30px;
   margin: 0;
-  border-radius: 0px 0px 5px 5px;
   background-color: #ffffff;
 }
 
-.b2select__item {
-  height: 40px;
+.b2multiselect__item {
   font-size: 14px;
   line-height: 17px;
-  border-bottom: 1px solid #98D7B2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 13px;
-  margin-right: 13px;
+  margin-bottom: 25px;
 }
 
-.b2select__item:last-child {
-  border-bottom: none;
+.b2multiselect__item:last-child {
+  margin-bottom: none;
 }
-/*# sourceMappingURL=B2Select.css.map */
+/*# sourceMappingURL=B2Multiselect.css.map */

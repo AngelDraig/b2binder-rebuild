@@ -3,9 +3,7 @@
 .b2checkbox {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 33px;
-    
+    align-items: center;    
 
     &__input {
         width: 25px;
@@ -14,9 +12,27 @@
         border-radius: 50%;
         cursor: pointer;
         appearance: none;
-
+        
         &:checked {
-            background-color: $color-green;
+            background: #D7E6DD;
+            border-radius: 50%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &::before {
+                position: absolute;
+                content: '';
+                width: 15px;
+                height: 15px;
+                background: $color-blue-dark;
+                border: 2px solid $color-blue-dark;
+                box-sizing: border-box;
+                box-shadow: 0px 0px 5px $color-blue-dark;
+                border-radius: 50%;
+                z-index: 1;
+            }
         }
 
     }

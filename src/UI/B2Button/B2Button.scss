@@ -12,6 +12,8 @@
   color: white;
   text-transform: uppercase;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
 
   &_blue {
     background: $color-blue-gradient;

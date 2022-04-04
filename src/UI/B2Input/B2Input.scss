@@ -9,6 +9,8 @@
   line-height: 17px;
   color: $color-black;
   padding: 12px 20px;
+  display: block;
+  margin: 0 auto;
 
   &::placeholder {
     color: $color-grey;

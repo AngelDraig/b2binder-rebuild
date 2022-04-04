@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* Devices */
+/* Colors */
+/* Из приложения на Vue */
+.signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 80px;
+}
+
+.signup s
+.btn.green-color {
+  width: 200px;
+}
+
+.signup__form {
+  width: 100%;
+  padding: 0 50px;
+}
+
+.signup__form .btn {
+  margin-bottom: 24px;
+}
+
+.signup__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: opacity 0.5s ease-in-out, -webkit-transform 1s ease-in-out 0.5s;
+  transition: opacity 0.5s ease-in-out, -webkit-transform 1s ease-in-out 0.5s;
+  transition: opacity 0.5s ease-in-out, transform 1s ease-in-out 0.5s;
+  transition: opacity 0.5s ease-in-out, transform 1s ease-in-out 0.5s, -webkit-transform 1s ease-in-out 0.5s;
+  opacity: 0;
+  -webkit-transform: translate(0, 100%);
+          transform: translate(0, 100%);
+  margin-bottom: 44px;
+}
+
+.signup__header.animated {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.signup .error--text .v-text-field__details {
+  position: absolute;
+  left: 8px;
+  top: 84%;
+  background: #fff;
+  padding: 0 4px !important;
+}
+
+.signup__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signup__btns--signin {
+  margin-top: 30px;
+}
+
+.signup__link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  text-align: center;
+  color: #2D9CDB;
+}
+
+.signup__form {
+  opacity: 0;
+  -webkit-transition: opacity .2s ease-in-out 1.5s;
+  transition: opacity .2s ease-in-out 1.5s;
+}
+
+.signup__form.shown {
+  opacity: 1;
+}
+
+.signup .checkbox-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.signup .checkbox {
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  border: 1px solid #B0D3BF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 48px;
+  height: 48px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.signup .checkbox svg {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  opacity: 0;
+}
+
+.signup .checkbox.active svg {
+  opacity: 1;
+}
+
+.signup .checkbox-label {
+  margin-left: 12px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #223522;
+}
+
+.signup .checkbox-label a {
+  color: #2D9CDB;
+  text-decoration: underline;
+}
+
+.signup__sublogo {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #223522;
+}
+
+.signup__input {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=SignIn.css.map */

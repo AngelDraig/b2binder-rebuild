@@ -8,7 +8,7 @@ export const TopNavbar = () => {
         <nav className="ob__navbar-top">
             <ul className="ob__navbar-content">
                 <NavLink to="/feed/1" exact={true} className="ob__navbar-item">
-                    <Logo />
+                    <Logo color={'white'} />
                 </NavLink>
 
                 <NavLink to="/my" className="ob__navbar-item">
